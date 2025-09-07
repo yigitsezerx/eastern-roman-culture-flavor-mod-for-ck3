@@ -41,5 +41,5 @@ Once enough contributors gather, we’ll create a dedicated **Discord server** f
 ---
 
 ## 📜 License
-This project is licensed under the **GPL v3 License** (or replace with the license you choose).  
+This project is licensed under the **GPL v3 License**
 See the [LICENSE](./LICENSE) file for details.
