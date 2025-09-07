@@ -1,0 +1,58 @@
+﻿namespace = restore_the_hellas_event
+
+restore_the_hellas_event.01 = {
+	type = character_event
+	title = restore_the_hellas_event.01.t
+	desc = restore_the_hellas_event.01.desc
+	theme = emperor
+	override_background = { reference = ep3_hippodrome_track }
+	left_portrait = {
+		character = root
+		animation = scepter
+		camera = camera_event_horse_left
+	}
+
+	immediate = {
+		play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Byzantine_Flavor/ep3_mx_sting_byzantineflavor_hold_triumph"
+	}
+
+	option = {
+		name = restore_the_hellas_event.01.a
+
+
+		title:k_hellas = {
+			set_title_name = "k_hellenia"
+			set_title_adjective = "k_hellenia_adj"
+		}
+		title:d_thessalonika = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_thessaly = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_athens = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_achaia = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_aegean_islands = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_krete = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_cephalonia = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_epirus = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:d_dyrrachion = {
+			set_de_jure_liege_title = title:k_hellas
+		}
+		title:c_ohrid = {
+			set_de_jure_liege_title = title:d_thessalonika
+		}
+	}
+}

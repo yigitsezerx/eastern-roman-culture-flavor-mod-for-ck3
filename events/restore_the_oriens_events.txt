@@ -1,0 +1,45 @@
+﻿namespace = restore_the_oriens_event
+
+restore_the_oriens_event.01 = {
+	type = character_event
+	title = restore_the_oriens_event.01.t
+	desc = restore_the_oriens_event.01.desc
+	theme = emperor
+	override_background = { reference = ep3_hippodrome_track }
+	left_portrait = {
+		character = root
+		animation = jockey_wave
+		camera = camera_event_horse_left
+	}
+
+	immediate = {
+		play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Byzantine_Flavor/ep3_mx_sting_byzantineflavor_hold_triumph"
+	}
+
+	option = {
+		name = restore_the_oriens_event.01.a
+
+			remove_nickname = yes
+			give_nickname = nick_soter
+		
+		title:k_syria = {
+			set_title_name = "k_syria_oriens"
+			set_title_adjective = "k_syria_oriens_adj"
+		}
+		title:d_cyprus = {
+			set_de_jure_liege_title = title:k_syria
+		}
+		title:d_oultrejourdain = {
+			set_de_jure_liege_title = title:k_syria
+		}
+		title:d_amman = {
+			set_de_jure_liege_title = title:k_syria
+		}
+		title:d_palestine = {
+			set_de_jure_liege_title = title:k_syria
+		}
+		title:d_urdunn = {
+			set_de_jure_liege_title = title:k_syria
+		}
+	}
+}

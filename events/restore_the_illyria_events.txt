@@ -1,0 +1,60 @@
+﻿namespace = restore_the_illyria_event
+
+restore_the_illyria_event.01 = {
+	type = character_event
+	title = restore_the_illyria_event.01.t
+	desc = restore_the_illyria_event.01.desc
+	theme = emperor
+	override_background = { reference = ep3_hippodrome_track }
+	left_portrait = {
+		character = root
+		animation = jockey_victory
+		camera = camera_event_horse_left
+	}
+
+	immediate = {
+		play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Byzantine_Flavor/ep3_mx_sting_byzantineflavor_hold_triumph"
+	}
+
+	option = {
+		name = restore_the_illyria_event.01.a
+
+		title:k_croatia = {
+			set_title_name = "k_croatia_illyria"
+			set_title_adjective = "k_croatia_illyria_adj"
+		}
+		title:d_croatia = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_slavonia = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_lower_bosna = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_bosna = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_dalmatia = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_usora = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_ragusa = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_duklja = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_rashka = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_macva = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+		title:d_syrmia = {
+			set_de_jure_liege_title = title:k_croatia
+		}
+	}
+}

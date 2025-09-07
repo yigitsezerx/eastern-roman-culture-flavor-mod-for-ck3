@@ -1,0 +1,22 @@
+﻿namespace = restore_exarchate_ravenna_event
+
+restore_exarchate_ravenna.01 = {
+	type = character_event
+	title = restore_exarchate_ravenna.01.t
+	desc = restore_exarchate_ravenna.01.desc
+	theme = emperor
+	override_background = { reference = ep3_hagia_sophia }
+	left_portrait = {
+		character = root
+		animation = scepter
+		camera = camera_event_horse_right
+	}
+
+	immediate = {
+		play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Byzantine_Flavor/ep3_mx_sting_byzantineflavor_hold_triumph"
+	}
+
+	option = {
+		name = restore_exarchate_ravenna.01.a
+	}
+}

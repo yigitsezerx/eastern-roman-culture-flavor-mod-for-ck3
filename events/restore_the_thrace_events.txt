@@ -1,0 +1,51 @@
+﻿namespace = restore_the_thrace_event
+
+restore_the_thrace_event.01 = {
+	type = character_event
+	title = restore_the_thrace_event.01.t
+	desc = restore_the_thrace_event.01.desc
+	theme = emperor
+	override_background = { reference = ep3_hippodrome_track }
+	left_portrait = {
+		character = root
+		animation = scepter
+		camera = camera_event_horse_left
+	}
+
+	immediate = {
+		play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Byzantine_Flavor/ep3_mx_sting_byzantineflavor_hold_triumph"
+	}
+
+	option = {
+		name = restore_the_thrace_event.01.a
+
+			remove_nickname = yes
+			give_nickname = nick_pater_thraciae
+
+		title:k_thessalonika = {
+			set_title_name = "k_thracia"
+			set_title_adjective = "k_thracia_adj"
+		}
+		title:d_thrace = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_strymon = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_philippopolis = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_turnovo = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_dobrudja = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_bulgaria = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+		title:d_vidin = {
+			set_de_jure_liege_title = title:k_thessalonika
+		}
+	}
+}
