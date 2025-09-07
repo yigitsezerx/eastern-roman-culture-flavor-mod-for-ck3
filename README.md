@@ -11,7 +11,7 @@ Expect **new events, decisions, cultural innovations, unique names, special unit
 
 ## 🫅 Credits
 - YS
-- Kaiser
+- Kaiser (Kitsune)
 
 ---
 
