@@ -4,7 +4,7 @@ ERCF adds a unique Eastern Roman culture to the Byzantine culture (heritage) gro
 # Eastern Roman Culture & Flavor Mod (Crusader Kings III)
 
 Welcome to the **Eastern Roman Culture Mod**!  
-This project aims to expand Crusader Kings III with a deeper, richer **Eastern Roman / Byzantine cultural experience**.  
+This project aims to expand Crusader Kings III with a deeper, richer **Eastern Roman experience**.  
 Expect **new events, decisions, cultural innovations, unique names, special units, and historical flavor** inspired by the legacy of the Romans in the East.
 
 ---
