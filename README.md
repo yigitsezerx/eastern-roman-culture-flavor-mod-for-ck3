@@ -9,6 +9,12 @@ Expect **new events, decisions, cultural innovations, unique names, special unit
 
 ---
 
+## 🫅 Credits
+- YS
+- Kaiser
+
+---
+
 ## 🚀 Goals
 - Add **authentic Eastern Roman cultural mechanics**  
 - Expand **titles, court positions, and military units**  
