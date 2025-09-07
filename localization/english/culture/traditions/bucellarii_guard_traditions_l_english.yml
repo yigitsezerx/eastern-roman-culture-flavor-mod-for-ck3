@@ -1,0 +1,7 @@
+﻿l_english:
+ tradition_bucellarii_guard_name:0 "Legacy of the Roman Expedition"
+ tradition_bucellarii_guard_desc:0 "Roman military rests on the legacy of professional arms. Its strength lies in elites forged through discipline and campaign. Soldiers who can charge as shock troops, skirmish with cunning, or stand firm in defense. This ensures Roman art of war endures against every foe."
+ culture_parameter_unlock_bucellarii_guard: "Can recruit [GetMaA('bucellarii_guard').GetName] as [men_at_arms]"
+ culture_parameter_unlock_antesignani: "Can recruit [GetMaA('antesignani').GetName] as [men_at_arms]"
+ culture_parameter_unlock_scutatii_axemen: "Can recruit [GetMaA('scutatii_axemen').GetName] as [men_at_arms]"
+ culture_parameter_unlock_gastraphetes: "Can recruit [GetMaA('gastraphetes').GetName] as [men_at_arms]"

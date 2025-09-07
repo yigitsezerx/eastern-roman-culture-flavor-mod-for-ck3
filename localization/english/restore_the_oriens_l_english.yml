@@ -1,0 +1,12 @@
+﻿l_english:
+ restore_the_oriens:0 "Restore the Diocese of Oriens"
+ restore_the_oriens_decision_desc:0 "Once the proud heartland of the Roman Empire’s eastern dominion, the [Glossary( 'Diocese of Oriens', 'DIOCESE_ORIENS_GLOSS' )] stretched from Antioch to the deserts of Arabia. Though shattered by invasions and religious strife, its memory endures. A land of cities, saints, and soldiers. To restore the Diocese is to proclaim that Roman order still binds the Levant, and that the eagle standard yet casts its shadow over the East."
+ restore_the_oriens_decision_tooltip:0 "Reassert imperial authority over the East."
+ restore_the_oriens_confirm:0 "Glory of the East, restored."
+ restore_the_oriens_event.01.t:0 "Roman Diocese of Oriens, Restored"
+ restore_the_oriens_event.01.desc:0 "The cities of Antioch, Damascus, and Palmyra once again echo with the authority of the Romans. \n\n"Fellow Romans! Lift your heads, dust off your sandals, and mark this day! Markets hum, taxes flow, and the streets remember the sound of justice! True Romans, rejoice! Your Empire holds you safe, your coin is honored, your cities rebuilt!" \n\nToday is a day to celebrate, for the [Glossary( 'Diocese of Oriens', 'DIOCESE_ORIENS_GLOSS' )] has been returned to its former glory and extension. Constantinople's reign extends from the heartlands of Anatolia to Syria, and to Palestine.\n\nA unified empire for a victorious [ROOT.Char.GetTitleAsNameNoTooltip]!"
+ restore_the_oriens_event.01.a:0 "[Glossary( 'Veni, Vidi, Vici.', 'VENIVIDI_VICI_GLOSS' )]"
+ k_syria_oriens:0 "Oriens"
+ k_syria_oriens_adj:0 "Orientine"
+ DIOCESE_ORIENS_GLOSS: "#bold Diocese of Oriens#! — "Diocese of the Orient, the East" — was one of the great administrative divisions of the later Roman Empire. It was also a cultural and religious hub — Jerusalem, Antioch, and many early Christian centers lay within its borders."
+ VENIVIDI_VICI_GLOSS: "#bold Veni, Vidi, Vici#! — I came, I Saw, I Conquered — Julius Caesar’s famous phrase, it embodies the idea of decisive action, clarity of purpose, and overwhelming achievement without delay or hesitation."
