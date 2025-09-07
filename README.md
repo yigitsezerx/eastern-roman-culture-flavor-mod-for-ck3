@@ -21,7 +21,7 @@ Expect **new events, decisions, cultural innovations, unique names, special unit
 This is an **open community project**. If you’d like to contribute:
 1. Fork the repository and make your changes  
 2. Open a pull request with a clear description  
-3. Or, if you want to get more directly involved, **add me on Discord** → **`YourDiscordTagHere`**  
+3. Or, if you want to get more directly involved, **add me on Discord** → **`menacesdepartir`**  
 
 Once enough contributors gather, we’ll create a dedicated **Discord server** for the core development team.
 
