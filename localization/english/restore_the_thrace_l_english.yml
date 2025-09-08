@@ -6,6 +6,6 @@
  restore_the_thrace_event.01.t:0 "Reinstating the Roman Diocese of Thrace"
  restore_the_thrace_event.01.desc:0 "The plains and hills of #bold Thrace#!, so long fractured by raids, neglect, and the passage of time, stir once more beneath the hand of the Empire. From the mountain passes of Haemus to the very gates of Constantinople, Roman banners rise again where disorder had taken root. \n\nBy decree of the Dominus, the ancient [Glossary( 'Diocese of Thrace', 'DIOCESE_THRACIA_GLOSS' )] is renewed. Governors are appointed, fortresses provisioned, and the tax rolls brought back to life. Where once the frontier sagged, there now stands a bulwark, Constantinople’s shield against the northern barbarians, hammered anew upon the anvil of imperial will. \n\n[Glossary( 'Diocese of Thrace', 'DIOCESE_THRACIA_GLOSS' )] has returned to her rightful place within the Roman design. \n\nA unified empire for a victorious [ROOT.Char.GetTitleAsNameNoTooltip]!"
  restore_the_thrace_event.01.a:0 "#bold Make it known from the Danube to the Propontis: Roman spirit lives in Thrace.#!"
- k_thracia:0 "Thracae"
+ k_thracia:0 "Thrace"
  k_thracia_adj:0 "Thracian"
  DIOCESE_THRACIA_GLOSS: "#bold Diocese of Thrace#! was one of the great administrative divisions of the later Roman Empire, crossed by the vital Via Egnatia. Though long prosperous, it endured repeated raids from Goths, Huns, and Bulgars over the centuries."
