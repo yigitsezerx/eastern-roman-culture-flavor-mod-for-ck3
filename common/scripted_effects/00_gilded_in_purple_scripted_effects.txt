@@ -1,0 +1,42 @@
+﻿add_gilded_in_purple_effect = {
+	add_trait = gilded_in_purple
+	if = {
+		limit = {
+			exists = dynasty
+		}
+		custom_tooltip = descendants_gain_gilded_in_purple
+		hidden_effect = {
+			dynasty = {
+				every_dynasty_member = {
+					custom = custom
+					limit = {
+						any_ancestor = {
+							this = $CHARACTER$
+						}
+					}
+					add_trait = gilded_in_purple
+				}
+			}
+		}
+	}
+	every_child = {
+		limit = {
+			OR = {
+				has_trait = bastard
+				has_trait = legitimized_bastard
+			}
+			NOT = {
+				has_trait = gilded_in_purple
+			}
+		}
+		add_trait = gilded_in_purple
+		if = {
+			limit = {
+				is_male = yes
+			}
+			every_child = {
+				add_trait = gilded_in_purple
+			}
+		}
+	}
+}
