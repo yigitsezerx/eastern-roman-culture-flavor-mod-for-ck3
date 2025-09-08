@@ -16,6 +16,7 @@
 			has_title = title:e_byzantium
 			has_title = title:e_roman_empire
 		}
+		culture = { has_cultural_pillar = language_latin }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions

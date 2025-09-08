@@ -5,3 +5,5 @@
  scythian_heritage_loc: "Diverged from Scythian in the year [DATE.GetYear]"
  bactrian_heritage_loc: "Formed from Bactrian and [CULTURE.GetName] in the year [DATE.GetYear]"
  eastern_roman_history_loc:0 "Though the West fell, the East thrived, blending Roman and Greek alike."
+ romano_thracian_history_loc:0 "The rough tribes of the southern Balkans bowed to Rome as well."
+ romano_levantine_history_loc:0 "Aramaics and Arabs alike, come together under the Roman banner."

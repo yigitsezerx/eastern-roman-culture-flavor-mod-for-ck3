@@ -52,3 +52,106 @@
 		10 = mediterranean_byzantine
 	}
 }
+
+romano_thracian = {
+	color = rgb { 120 0 75 }
+
+	parents = { roman bulgarian }
+
+	created = 476.1.1
+
+	history_loc_override = romano_thracian_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_byzantine
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_stand_and_fight
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_palace_politics
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	
+	name_list = name_list_eastern_roman
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+romano_levantine = {
+	color = rgb { 125 0 90 }
+
+	parents = { roman levantine }
+
+	created = 476.1.1
+
+	history_loc_override = romano_levantine_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_byzantine
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_dryland_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_palace_politics
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	
+	name_list = name_list_eastern_roman
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		10 = arab
+	}
+}

@@ -41,5 +41,57 @@ restore_the_oriens_event.01 = {
 		title:d_urdunn = {
 			set_de_jure_liege_title = title:k_syria
 		}
+		custom_tooltip = {
+			text = romanization_tt
+       	    if = {
+		    	limit = {
+					culture = { has_cultural_pillar = language_latin }
+				}
+				title:k_syria = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_levantine
+						}
+					}
+				}
+				title:d_cyprus = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 20
+								development_level >= 1
+							}
+							modifier = {
+								add = 25
+								development_level >= 2
+							}
+							modifier = {
+								add = 25
+								development_level >= 3
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+			}
+		}
+		culture:romano_levantine = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:eastern_roman
+		}
 	}
 }

@@ -47,5 +47,81 @@ restore_the_thrace_event.01 = {
 		title:d_vidin = {
 			set_de_jure_liege_title = title:k_thessalonika
 		}
+		custom_tooltip = {
+			text = romanization_tt
+       	    if = {
+		    	limit = {
+					culture = { has_cultural_pillar = language_latin }
+				}
+				title:k_thessalonika = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_thracian
+						}
+					}
+				}
+				title:d_thrace = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 20
+								development_level >= 2
+							}
+							modifier = {
+								add = 25
+								development_level >= 3
+							}
+							modifier = {
+								add = 25
+								development_level >= 4
+							}
+							modifier = {
+								add = 45
+								development_level >= 15
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+				title:d_strymon = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 20
+								development_level >= 2
+							}
+							modifier = {
+								add = 25
+								development_level >= 3
+							}
+							modifier = {
+								add = 25
+								development_level >= 4
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+			}
+		}
+		culture:romano_thracian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:eastern_roman
+		}
 	}
 }

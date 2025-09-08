@@ -54,5 +54,33 @@ restore_the_hellas_event.01 = {
 		title:c_ohrid = {
 			set_de_jure_liege_title = title:d_thessalonika
 		}
+		custom_tooltip = {
+			text = romanization_tt
+       	    if = {
+		    	limit = {
+					culture = { has_cultural_pillar = language_latin }
+				}
+				title:k_hellas = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+			}
+		}
 	}
 }

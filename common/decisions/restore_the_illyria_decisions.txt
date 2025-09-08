@@ -13,6 +13,7 @@
 	is_shown = {
 		has_ep3_dlc_trigger = yes
 		has_title = title:e_byzantium
+		culture = { has_cultural_pillar = language_latin }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions

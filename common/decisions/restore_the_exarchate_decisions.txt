@@ -12,6 +12,8 @@
 	is_shown = {
 		# DLC check
 		has_ep3_dlc_trigger = yes
+		has_title = title:e_byzantium
+		culture = { has_cultural_pillar = language_latin }
 		# Standard checks
 		is_playable_character = yes
 		NOT = {
