@@ -33,6 +33,7 @@
 	
 	parameters = {
 		unlock_equites_sclaveni = yes
+		frontier_themes_borrow_neighbor_troops = yes
 	}
 	character_modifier = {
 		skirmishers_screen_mult = 0.2
@@ -40,6 +41,7 @@
 		light_cavalry_screen_mult = 0.2
 		retreat_losses = -0.1
 		hard_casualty_modifier = -0.1
+		men_at_arms_title_limit = 1
 	}
 	
 	cost = {
