@@ -7,7 +7,6 @@
  restore_the_hellas_event.01.desc:0 "By imperial decree, the lands of #bold Macedonia#! and #bold Achaia#! are united under a single banner of administration: #bold Hellas#!. \n\n This reunification will surely strengthen the governance, improve defenses, and restore the authority of the Empire across the Greek provinces. The provinces, once divided, shall now stand together as one, reflecting the enduring legacy of Hellenic culture and Roman order.\n\nA unified empire for a victorious [ROOT.Char.GetTitleAsNameNoTooltip]!"
  restore_the_hellas_event.01.a:0 "[Glossary( 'Hopou esti Rhōmē, kata tous Rhōmaiōn nomous zēthi.', 'METRON_ARISTON_GLOSS' )]"
  k_hellenia:0 "Hellas"
- k_hellenia_adj:0 "Greek"
+ k_hellenia_adj:0 "Hellene"
  DIOCESE_HELLENIA_GLOSS: "#bold Diocese of Hellas#! is one of the great administrative divisions of the later Roman Empire, founded by the merger of the ancient dioceses of #bold Macedonia#! and #bold Achaia#!."
  METRON_ARISTON_GLOSS: "#bold Hopou esti Rhōmē, kata tous Rhōmaiōn nomous zēthi.#!" — Greek for "#bold  When in Rome, do as the Romans do#!."
- romanization_tt: "With the full incorporation into the Empire, Roman culture has started to take root in the region."

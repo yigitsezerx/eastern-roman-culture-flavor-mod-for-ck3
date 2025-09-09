@@ -1307,8 +1307,8 @@
  trait_golden_lineage_desc: "What this character's bloodline has wrought on the world cannot be forgotten. They are a golden scion of fire and conquest."
  trait_golden_lineage_character_desc: "What [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] bloodline has wrought on the world cannot be forgotten. [ROOT.GetCharacter.GetSheHe|U] is the golden scion of fire and conquest."
  descendants_gain_golden_lineage: "Your descendants gain [GetTrait('golden_lineage').GetName( GetNullCharacter )]"
-
- trait_gilded_in_purple: "Gilded In Purple"
- trait_gilded_in_purple_desc: "The achievements of this character have them standing on equal footing with the likes of Emperor Constantine or Theodosius, the enemies of Rome shall know fear once more."
- trait_gilded_in_purple_character_desc: "The achievements of [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] have bestowed their entire bloodline with glory and the blessing of the imperial purple."
- descendants_gain_gilded_in_purple: "Your descendants gain [GetTrait('trait_gilded_in_purple').GetName( GetNullCharacter )]"
+# FLAVIUS FOR EASTERN ROMANS
+ trait_flavius_ercf:0 "Flavius"
+ trait_flavius_ercf_desc:0 "A name of honor, and later an honorific title carried by emperors since Constantine, marking the bearer as a legitimate and venerable ruler of Eastern part of the Roman Empire."
+ trait_flavius_ercf_character_desc:0 "The achievements of [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] have bestowed their entire bloodline with glory, as heirs to Constantine’s legacy and the rightful sovereigns of the Eastern Empire."
+ descendants_gain_flavius_ercf:0 "Your descendants gain [GetTrait('flavius_ercf').GetName( GetNullCharacter )]."

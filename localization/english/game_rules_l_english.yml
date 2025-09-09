@@ -1115,11 +1115,11 @@
  game_rule_extra_nomads_horn_situation_steppe_sky_blessing_season_situation_phase: "$situation_steppe_sky_blessing_season$"
  game_rule_extra_nomads_horn_situation_steppe_havsarsan_zud_season_situation_phase: "$situation_steppe_havsarsan_zud_season$"
  
- rule_regional_roman_cultures: "Regional Romans"
+ rule_regional_roman_cultures: "Eastern Roman Culture & Flavor - Regional Divergences"
  setting_united_roman_culture: "United Culture"
- setting_united_roman_culture_desc: "When founding a Diocese a regional Roman culture will not be created."
- setting_regional_cultures: "Regional Cultures"
- setting_regional_cultures_desc: "When founding a Diocese a regional Roman culture will be created."
+ setting_united_roman_culture_desc: "When founding or restoring a Diocese, a regional Roman culture will not be created."
+ setting_regional_cultures: "Regional Divergent Cultures"
+ setting_regional_cultures_desc: "When founding or restoring a Diocese, a regional Roman culture will be created."
  
  _sub_region_ERROR_FLAG_INDEX: "a place outside the [situation|E]"
  
