@@ -839,6 +839,7 @@
 		"dynn_Perenus"
 		"dynn_Periblepthenus"
 		"dynn_Phalco"
+		"dynn_Pullo"
 		"dynn_Falco"
 		"dynn_Phrangus"
 		"dynn_Pistophilos"
@@ -921,6 +922,7 @@
 		"dynn_Lucretius"
 		"dynn_Vitellius"
 		"dynn_Vipsanius"
+		"dynn_Vorenus"
 		"dynn_Sestius"
 		"dynn_Villius"
 		"dynn_Didius"
@@ -936,14 +938,14 @@
 		Fabricius Faustinus Febronius Ferreolicus Firmus Firmatus Firminus Fortunatius Fortinatianus Frigidianus Furius Furianus
 		Gabriel Gennadius Georgius Gerasimus Germanus Gregoras Gregorius Gaius Gentianus Getilius Gratus
 		Hectorius Heracleius Hierotheus Himerius Hilarius Honorius Hostus Hostilianus Horatio Hypatius
-		Ignatius Innocentius Ioannes Icarius Iordanes  Icarus Ioseph Isaias Isidoros Iunianus Iuventius Iustinianus Iustus Iovis
+		Ignatius Innocentius Ioannes Icarius Iordanes  Icarus Ioseph Isaias Isidorus Iunianus Iuventius Iustinianus Iustus Iovis
 		Jacominus Jacomus Jotapianus Jovianus Jovis Jove Junius Junianus Justin Justinius Justinianus Juventius
-		Laurentius Lazarus Leo Leon Leontius Lucas Laudatus Laurinus Liberio Licinius Licinianus Lucentius Lucidius Lucillanus Lupatus Lupo Lupercus Lupercius 
+		Laurentius Lazarus Leo Leon Leontius Lucas Laudatus Laurinus Liberio Licinius Licinianus Lucentius Lucidius Lucillanus Lupatus Lupo Lupercus Lupercius Lucius
 		Mathius Mauricus Maurice Megistus Meletius Methodius Michael Majorius Majorianus Mamertus Mercus Marcus Marculus Marcianus Martinius Mavilius Menecrates Moderatius Mucius
 		Narses Nepos Nicephorus Nicetas Nicodemus Nicholaus Niphon Nostrianus Nostrius Novatius Novatianus Numerius Numerianus Nymphidio 
 		Orestes Oderisus Ophellius Opsius Optatius Optius Optatianus Optatus Orbianus Orbius Orentius Otacilius Oxytheus
 		Pamphilius Pancratius Pascus Palmatius Parisius Pascasius Pasiphilus Paulinus Perpetius Petrus Petrocus Phrontinus Porcarius Porcius Porcianus Porphyrius Potentius Potentianus Pudes Pragmatius Privatus Priscus Proscessus Procopius Procullus Publius Pulcherius Pavlus Pelagius Philippus Philotheus Peregrinus
-		Raphail Romanus Reperatus Resignus Restutus Reverius Reverianus Rhodopianus Robustius Romanius Rosalius Rufinius Rufinianus Rusticius
+		Raphail Romanus Reperatus Resignus Restutus Reverius Reverianus Rhodopianus Robustius Romanius Rosalius Rufinius Rufinianus Rufinius Rusticius
 		Sabas Samuel Serapius Sebastianus Sergius Stephanus Symeon Symmachus Sabbatius Sabinius Salvius Sanctinus Sanctitius Septimius Severus Servianus Serviusus Silvius Similianus Simplicius Siricius Sixtus Syagrius Sabbatinus
 		Theocharistus Theodorus Theodosius Theodotus Theodilus Theophanes Theophilus Thomas Tiberius Traianus Tertullus Tetricus Timesitheus Timotheus Tryphon Theophilactus
 		Valerius Verius Vetranio Veturus Victorius Victoricus Victorianus Vinicianus Vivius Volusius Volusianus Valentinus 
