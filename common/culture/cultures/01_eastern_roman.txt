@@ -120,7 +120,7 @@ thraco_roman = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_hussar
+		tradition_slavic_auxilliaries
 		tradition_stand_and_fight
 	}
 	dlc_tradition = {

@@ -1,0 +1,5 @@
+﻿l_english:
+
+  tradition_slavic_auxilliaries_name: "Slavic Auxiliaries"
+  tradition_slavic_auxilliaries_desc: "Using their prowess in mounted warfare and skirmishing tactics, the Sclaveni have been integrated into the Roman war machine."
+  culture_parameter_unlock_equites_sclaveni: "Can recruit [GetMaA('equites_sclaveni').GetName] as [men_at_arms]"
