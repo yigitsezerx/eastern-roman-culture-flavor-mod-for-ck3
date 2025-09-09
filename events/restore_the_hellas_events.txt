@@ -54,7 +54,7 @@ restore_the_hellas_event.01 = {
 		title:c_ohrid = {
 			set_de_jure_liege_title = title:d_thessalonika
 		}
-		custom_tooltip = {
+		custom_tooltip = { # re-assimilating cultures back into roman by Kitsune (Kaiser)
 			text = romanization_tt
        	    if = {
 		    	limit = {

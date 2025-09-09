@@ -56,5 +56,73 @@ restore_the_illyria_event.01 = {
 		title:d_syrmia = {
 			set_de_jure_liege_title = title:k_croatia
 		}
+		custom_tooltip = { # re-assimilating cultures back into roman by Kitsune (Kaiser)
+			text = romanization_tt 
+       	    if = {
+		    	limit = {
+					culture = { has_cultural_pillar = language_latin }
+				}
+				title:k_croatia = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+				title:d_dalmatia = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 20
+								development_level >= 1
+							}
+							modifier = {
+								add = 25
+								development_level >= 2
+							}
+							modifier = {
+								add = 25
+								development_level >= 3
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+				title:d_ragusa = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 20
+								development_level >= 1
+							}
+							modifier = {
+								add = 25
+								development_level >= 2
+							}
+							modifier = {
+								add = 25
+								development_level >= 3
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+			}
+		}
 	}
 }

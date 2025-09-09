@@ -3446,7 +3446,7 @@ ep3_decisions_event.4000 = {
 		create_character_memory = {
 			type = byz_theodosian_border_memory
 		}
-		add_gilded_in_purple_effect = { CHARACTER = root }
+		add_flavius_ercf_effect = { CHARACTER = root }
 	}
 
 	option = {

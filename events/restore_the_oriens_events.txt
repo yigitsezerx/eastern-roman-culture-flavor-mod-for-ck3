@@ -41,8 +41,8 @@ restore_the_oriens_event.01 = {
 		title:d_urdunn = {
 			set_de_jure_liege_title = title:k_syria
 		}
-		custom_tooltip = {
-			text = romanization_tt
+		custom_tooltip = { # re-assimilating cultures back into roman or roman divergents by Kitsune (Kaiser)
+			text = romanization_tt 
        	    if = {
 		    	limit = {
 					has_game_rule = regional_cultures
@@ -63,7 +63,7 @@ restore_the_oriens_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:romano_levantine
+							set_county_culture = culture:levantine_roman
 						}
 					}
 				}
@@ -111,7 +111,7 @@ restore_the_oriens_event.01 = {
 				}
 			}
 		}
-		culture:romano_levantine = {
+		culture:levantine_roman = {
 			reset_culture_creation_date = yes
 			get_all_innovations_from = culture:eastern_roman
 		}
