@@ -1,7 +1,7 @@
-﻿# Curopalates Position, this file should make the game see the office in the game
+﻿# Curopalates Position, this file should make the game see the office in the game. By kitsune (kaiser)
 
 curopalates_court_position = {
-	sort_order = 250
+	sort_order = 280
 	max_available_positions = 1
 	minimum_rank = empire
 	skill = stewardship
@@ -15,7 +15,7 @@ curopalates_court_position = {
 		value = 40 #it is considered an honour to receive this position
 	}
 
-	aptitude_level_breakpoints = { 40 60 60 100 }
+	aptitude_level_breakpoints = { 20 40 60 80 }
 
 	aptitude = {
 		value = 10
@@ -311,7 +311,8 @@ curopalates_court_position = {
 	# Employee bonuses
 	modifier = {
 		monthly_prestige = 1
-		monthly_influence_mult = 0.25
+		monthly_influence_mult = 0.40
+		monthly_dynasty_prestige  0.25
 	}
 
 	# Effects on received/revoked/invalidated

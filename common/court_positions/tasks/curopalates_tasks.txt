@@ -1,4 +1,4 @@
-﻿#CUROPALATES
+﻿#CUROPALATES by kitsune (kaiser)
 
 curopalates_improve_domain = {
 	court_position_types = { curopalates_court_position }
@@ -71,16 +71,16 @@ curopalates_advance_research = {
 		 	monthly_lifestyle_xp_gain_mult = 0.04
 		}
 		poor = {
-		 	monthly_lifestyle_xp_gain_mult = 0.06
-		}
-		average = {
 		 	monthly_lifestyle_xp_gain_mult = 0.08
 		}
-		good = {
+		average = {
 		 	monthly_lifestyle_xp_gain_mult = 0.10
 		}
-		excellent = {
+		good = {
 		 	monthly_lifestyle_xp_gain_mult = 0.15
+		}
+		excellent = {
+		 	monthly_lifestyle_xp_gain_mult = 0.20
 		}
 	}
 
