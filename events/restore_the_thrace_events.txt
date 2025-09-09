@@ -51,9 +51,89 @@ restore_the_thrace_event.01 = {
 			text = romanization_tt
        	    if = {
 		    	limit = {
-					culture = { has_cultural_pillar = language_latin }
+					has_game_rule = regional_cultures
 				}
-				title:k_thessalonika = {
+				title:d_philippopolis = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_thracian
+						}
+					}
+				}
+				title:d_turnovo = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_thracian
+						}
+					}
+				}
+				title:d_dobrudja = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_thracian
+						}
+					}
+				}
+				title:d_bulgaria = {
+					every_de_jure_county = {
+						random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							set_county_culture = culture:romano_thracian
+						}
+					}
+				}
+				title:d_vidin = {
 					every_de_jure_county = {
 						random = {
 							chance = 5
@@ -112,6 +192,32 @@ restore_the_thrace_event.01 = {
 							modifier = {
 								add = 25
 								development_level >= 4
+							}
+							set_county_culture = culture:eastern_roman
+						}
+					}
+				}
+			}
+			else = {
+				title:k_thessalonika = {
+					every_de_jure_county = {
+					random = {
+							chance = 5
+							modifier = {
+								add = 15
+								development_level >= 2
+							}
+							modifier = {
+								add = 20
+								development_level >= 3
+							}
+							modifier = {
+								add = 20
+								development_level >= 4
+							}
+							modifier = {
+								add = 20
+								development_level >= 20
 							}
 							set_county_culture = culture:eastern_roman
 						}

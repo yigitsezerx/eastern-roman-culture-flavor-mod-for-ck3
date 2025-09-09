@@ -1,0 +1,16 @@
+﻿regional_roman_cultures = {
+	
+	categories = {
+		historicity
+	}
+	
+	default = united_roman_culture
+
+	united_roman_culture = {
+	
+	}
+	
+	regional_cultures = {
+		
+	}
+}
