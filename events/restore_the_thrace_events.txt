@@ -69,7 +69,7 @@ restore_the_thrace_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:thracio_roman
+							set_county_culture = culture:thraco_roman
 						}
 					}
 				}
@@ -89,7 +89,7 @@ restore_the_thrace_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:thracio_roman
+							set_county_culture = culture:thraco_roman
 						}
 					}
 				}
@@ -109,7 +109,7 @@ restore_the_thrace_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:thracio_roman
+							set_county_culture = culture:thraco_roman
 						}
 					}
 				}
@@ -129,7 +129,7 @@ restore_the_thrace_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:thracio_roman
+							set_county_culture = culture:thraco_roman
 						}
 					}
 				}
@@ -149,7 +149,7 @@ restore_the_thrace_event.01 = {
 								add = 20
 								development_level >= 4
 							}
-							set_county_culture = culture:thracio_roman
+							set_county_culture = culture:thraco_roman
 						}
 					}
 				}
@@ -225,7 +225,7 @@ restore_the_thrace_event.01 = {
 				}
 			}
 		}
-		culture:thracio_roman = {
+		culture:thraco_roman = {
 			reset_culture_creation_date = yes
 			get_all_innovations_from = culture:eastern_roman
 		}

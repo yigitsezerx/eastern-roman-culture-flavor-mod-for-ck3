@@ -105,7 +105,7 @@ levantine_roman = {
 	}
 }
 
-thracio_roman = {
+thraco_roman = {
 	color = rgb { 109 28 50 }
 
 	parents = { roman bulgarian vlach }

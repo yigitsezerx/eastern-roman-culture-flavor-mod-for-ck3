@@ -96,9 +96,9 @@
  levantine_roman: "Levantine Roman"
  levantine_roman_prefix: "Romano"
  levantine_roman_collective_noun: "Levantine Romans"
- thracio_roman: "Thracio-Roman"
- thracio_roman_prefix: "Romano"
- thracio_roman_collective_noun: "Thracio-Romans"
+ thraco_roman: "Thraco-Roman"
+ thraco_roman_prefix: "Romano"
+ thraco_roman_collective_noun: "Thraco-Romans"
  #Baltic group
  baltic_group:0 "Baltic"
  baltic_group_collective_noun:1 "Baltics"
