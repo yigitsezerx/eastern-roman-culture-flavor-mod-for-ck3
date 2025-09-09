@@ -1306,7 +1306,7 @@ custom_theodosian_ere = {
 		# Jerusalem
 		d_amman
 		# Arabia
-		d_shammar
+		# d_shammar THIS MIGHT BE THE CULPRIT! IF IT IS I AM GOING TO CRY. FUCK YOU GHASSANIDS! GET OUT OF MY ERE REEEEEE
 		# Egypt
 		d_al-wahat d_eastern_desert
 	}
