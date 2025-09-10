@@ -1,0 +1,12 @@
+﻿l_english:
+ restore_the_egypt:0 "Found the Diocese of Aegyptus"
+ restore_the_egypt_decision_desc:0 "The black lands of the Nile fertile and civilized have a rich and ancient history, from the Pharaohs of old to the Greek Kingdom, into the first Roman rule and the Arab conquest. Egypt has seen many rulers but has retained its prestige and agricultural prowess, now once more our glorious Empire can make use of these virtues. Let it be known that the Romans rule [Glossary( 'Diocese of Aegyptus', 'DIOCESE_AEGYPTUS_GLOSS' )] once again!"
+ restore_the_egypt_decision_tooltip:0 "Restore the ancient #bold Diocese of Aegyptus#!."
+ restore_the_egypt_confirm:0 "The prestige of Egypt recaptured."
+ restore_the_egypt_event.01.t:0 "Founding of the Roman Diocese of Aegyptus"
+ restore_the_egypt_event.01.desc:0 "By the might of the Imperial Office, the Senate, and the people of Rome, Egypt has once again been returned to the sons and daughters of Troy. Now under the prosperous rule of our state, Egypt shall find new life as an integral part to the Roman Empire."
+ restore_the_egypt_event.01.a:0 "[Glossary( 'Aegyptum imperio populi Romani adieci.', 'AUGUSTUS_EGYPT_GLOSS' )]"
+ k_aegyptus:0 "Aegyptus"
+ k_aegyptus_adj:0 "Aegyptae"
+ DIOCESE_AEGYPTUS_GLOSS: "#bold The Diocese of Aegyptus#! is one of the most prestigious and economically important Diocese of the Empire."
+ AUGUSTUS_EGYPT_GLOSS: "#bold Aegyptum imperio populi Romani adieci.#!" — Latin for "#bold I added Egypt to the dominion of the Roman people.#! said by Emperor Augustus."

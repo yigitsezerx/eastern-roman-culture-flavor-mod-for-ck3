@@ -1352,3 +1352,7 @@
 
  nick_pater_thraciae: "Pater Thraciae"
  nick_pater_thraciae_desc: "By the grace of God and the senate of Constantinople, [CHARACTER.GetShortUINameNoTooltipNoFormat] are hailed as #bold Pater Thraciae#!, father and guardian of #bold Thracia #!."
+ 
+ nick_octavianulus: "Octavianulus"
+ nick_octavianulus_desc: "Just like the first true Imperator, Augustus, [CHARACTER.GetShortUINameNoTooltipNoFormat] managed to subjugate Egypt and return it to Rome. Hail our #bold Little Octavian#!, Emperor of the Romans!"
+ 

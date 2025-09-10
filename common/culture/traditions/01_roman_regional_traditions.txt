@@ -179,3 +179,86 @@ tradition_levantine_expertise = {
 		}
 	}
 }
+
+
+tradition_bowmen_of_the_nile = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = mediterranean
+		4 = bow.dds
+	}
+
+	is_shown = {
+		OR = {
+			this = culture:egypto_roman
+			any_parent_culture_or_above = {
+				this = culture:egypto_roman
+			}
+		}
+		# DLC check.
+		has_ep3_dlc_trigger = yes
+	}
+	can_pick = {
+		custom_tooltip = {
+			text = culture_in_camel_region_desc
+			any_culture_county = {
+				any_county_province = {
+					geographical_region = world_innovation_camels
+				}
+			}
+		}
+	}
+	
+	parameters = {
+		unlock_cohors_aegyptiorum = yes
+		hunting_archery_building_bonuses = yes
+		zealous_trait_more_common = yes
+		humble_trait_more_common = yes
+		desert_warrior_trait_more_common = yes
+	}
+	character_modifier = {
+		prowess_per_piety_level = 1
+		desert_travel_danger = desert_low_danger_reduction
+		drylands_travel_danger = drylands_low_danger_reduction
+	}
+	county_modifier = {
+		floodplains_levy_size = 0.1
+		drylands_levy_size = 0.1
+		desert_levy_size = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_spiritual_or_communal_desc
+				}
+			}
+			if = {
+				limit = {
+					culture_tradition_reduction_trigger = { TRADITION = tradition_bowmen_of_the_nile }
+				}
+				multiply = {
+					value = 0.5
+					desc = inspired_by_culture_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+}

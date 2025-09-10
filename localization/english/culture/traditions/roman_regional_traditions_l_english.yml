@@ -6,3 +6,6 @@
   tradition_levantine_expertise_name: "Levantine Expertise"
   tradition_levantine_expertise_desc: "The Roman armies are used to fighting in a mediterranean or temperate climate but struggled under the swealtering heat of the Orient. As such locals to the desert regions, both settled and nomads, were recruited into the Roman army."
   culture_parameter_unlock_equites_dromedarii: "Can recruit [GetMaA('equites_dromedarii').GetName] as [men_at_arms]"
+  tradition_bowmen_of_the_nile_name: "Bowmen of the Nile"
+  tradition_bowmen_of_the_nile_desc: "The archers of Egypt are seasoned and zealous warriors, willing to defend their home in the name of their God. This zeal makes them well suited cohorts for the Roman military, both on water and land."
+  culture_parameter_unlock_cohors_aegyptiorum: "Can recruit [GetMaA('cohors_aegyptiorum').GetName] as [men_at_arms]"

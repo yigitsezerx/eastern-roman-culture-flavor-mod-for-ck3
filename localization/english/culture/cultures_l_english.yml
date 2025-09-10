@@ -99,6 +99,9 @@
  thraco_roman: "Thraco-Roman"
  thraco_roman_prefix: "Romano"
  thraco_roman_collective_noun: "Thraco-Romans"
+ egypto_roman: "Egypto-Roman"
+ egypto_roman_prefix: "Romano"
+ egypto_roman_collective_noun: "Egypto-Romans"
  #Baltic group
  baltic_group:0 "Baltic"
  baltic_group_collective_noun:1 "Baltics"
