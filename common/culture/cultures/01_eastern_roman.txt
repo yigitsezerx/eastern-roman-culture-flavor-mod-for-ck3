@@ -69,7 +69,7 @@ levantine_roman = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_philosopher_culture
-		tradition_dryland_dwellers
+		tradition_levantine_expertise
 	}
 	dlc_tradition = {
 		trait = tradition_ep3_imperial_tagmata

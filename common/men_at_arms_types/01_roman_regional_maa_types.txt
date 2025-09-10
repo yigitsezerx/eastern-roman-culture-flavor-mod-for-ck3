@@ -36,3 +36,45 @@ equites_sclaveni = {
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 10] }
 	icon = light_cavalry
 }
+
+equites_dromedarii = {
+	type = camel_cavalry
+	
+	damage = 30
+	toughness = 20
+	pursuit = 20
+	screen = 25
+	
+	terrain_bonus = {
+		desert = { damage = 25 toughness = 10 }
+		drylands = { damage = 20 toughness = 10 }
+		oasis = { damage = 20 }
+		floodplains = { damage = 10 }
+		hills = { damage = -10 }
+		desert_mountains = { damage = -10 pursuit = -10 }
+		mountains = { damage = -15 pursuit = -20 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -20 screen = -20 }
+	}
+	
+	counters = {
+		light_cavalry = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -3 }
+		harsh_winter = { damage = -5 toughness = -2 }
+	}
+	
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_equites_dromedarii }
+	}
+	
+	buy_cost = { gold = 90 }
+	low_maintenance_cost = { gold = 0.40 }
+	high_maintenance_cost = { gold = 1.20 }
+	provision_cost = @provisions_cost_cavalry_expensive
+	
+	stack = 100
+	ai_quality = { value = @[cultural_maa_extra_ai_score + 10] }
+	icon = camel_riders
+}
