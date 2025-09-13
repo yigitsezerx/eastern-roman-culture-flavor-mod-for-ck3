@@ -53,16 +53,16 @@ restore_the_thrace_event.01 = {
 		    	limit = {
 					has_game_rule = regional_cultures
 				}
-				title:d_philippopolis = {
+				title:d_philippopolis = { #needs to be this way to avoid half of greece becoming thraco-roman
 					every_de_jure_county = {
 						random = {
 							chance = 5
 							modifier = {
-								add = 15
+								add = 10
 								development_level >= 2
 							}
 							modifier = {
-								add = 20
+								add = 15
 								development_level >= 3
 							}
 							modifier = {
@@ -78,11 +78,11 @@ restore_the_thrace_event.01 = {
 						random = {
 							chance = 5
 							modifier = {
-								add = 15
+								add = 10
 								development_level >= 2
 							}
 							modifier = {
-								add = 20
+								add = 15
 								development_level >= 3
 							}
 							modifier = {
@@ -98,11 +98,11 @@ restore_the_thrace_event.01 = {
 						random = {
 							chance = 5
 							modifier = {
-								add = 15
+								add = 10
 								development_level >= 2
 							}
 							modifier = {
-								add = 20
+								add = 15
 								development_level >= 3
 							}
 							modifier = {
@@ -118,11 +118,11 @@ restore_the_thrace_event.01 = {
 						random = {
 							chance = 5
 							modifier = {
-								add = 15
+								add = 10
 								development_level >= 2
 							}
 							modifier = {
-								add = 20
+								add = 15
 								development_level >= 3
 							}
 							modifier = {
@@ -138,11 +138,11 @@ restore_the_thrace_event.01 = {
 						random = {
 							chance = 5
 							modifier = {
-								add = 15
+								add = 10
 								development_level >= 2
 							}
 							modifier = {
-								add = 20
+								add = 15
 								development_level >= 3
 							}
 							modifier = {
@@ -162,15 +162,15 @@ restore_the_thrace_event.01 = {
 								development_level >= 2
 							}
 							modifier = {
-								add = 25
+								add = 20
 								development_level >= 3
 							}
 							modifier = {
-								add = 25
+								add = 20
 								development_level >= 4
 							}
 							modifier = {
-								add = 45
+								add = 40
 								development_level >= 15
 							}
 							set_county_culture = culture:eastern_roman
@@ -228,6 +228,43 @@ restore_the_thrace_event.01 = {
 		culture:thraco_roman = {
 			reset_culture_creation_date = yes
 			get_all_innovations_from = culture:eastern_roman
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+				    has_game_rule = regional_cultures
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_thessalonika
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_thessalonika
+									de_jure_liege.de_jure_liege = title:k_thessalonika
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.1
+				}
+			}
+			else = {
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_thessalonika
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_thessalonika
+									de_jure_liege.de_jure_liege = title:k_thessalonika
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.2
+				}
+			}
 		}
 	}
 }

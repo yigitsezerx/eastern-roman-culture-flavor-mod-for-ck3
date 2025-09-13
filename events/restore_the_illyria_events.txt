@@ -124,5 +124,42 @@ restore_the_illyria_event.01 = {
 				}
 			}
 		}
+		hidden_effect = { #assigning cultures to rulers, needs to be after reassigning cultures
+			if = {
+				limit = {
+				    has_game_rule = regional_cultures
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_croatia
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_croatia
+									de_jure_liege.de_jure_liege = title:k_croatia
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.1
+				}
+			}
+			else = {
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_croatia
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_croatia
+									de_jure_liege.de_jure_liege = title:k_croatia
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.2
+				}
+			}
+		}
 	}
 }

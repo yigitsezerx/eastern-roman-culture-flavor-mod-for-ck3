@@ -115,5 +115,42 @@ restore_the_oriens_event.01 = {
 			reset_culture_creation_date = yes
 			get_all_innovations_from = culture:eastern_roman
 		}
+		hidden_effect = {
+			if = {
+				limit = {
+				    has_game_rule = regional_cultures
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_syria
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_syria
+									de_jure_liege.de_jure_liege = title:k_syria
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.1
+				}
+			}
+			else = {
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_syria
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_syria
+									de_jure_liege.de_jure_liege = title:k_syria
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.2
+				}
+			}
+		}
 	}
 }

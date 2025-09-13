@@ -19,8 +19,7 @@ restore_the_egypt_event.01 = {
 	option = {
 		name = restore_the_egypt_event.01.a
 
-
-		title:k_hellas = {
+		title:k_egypt = {
 			set_title_name = "k_aegyptus"
 			set_title_adjective = "k_aegyptus_adj"
 		}
@@ -71,6 +70,47 @@ restore_the_egypt_event.01 = {
 							set_county_culture = culture:eastern_roman
 						}
 					}
+				}
+			}
+		}
+		culture:egypto_roman = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:eastern_roman
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+				    has_game_rule = regional_cultures
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_egypt
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_egypt
+									de_jure_liege.de_jure_liege = title:k_egypt
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.1
+				}
+			}
+			else = {
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						    primary_title = title:k_egypt
+						    primary_title = {
+								OR = {
+									de_jure_liege = title:k_egypt
+									de_jure_liege.de_jure_liege = title:k_egypt
+								}
+							}
+						}
+					}
+					trigger_event = roman_culture_character.2
 				}
 			}
 		}

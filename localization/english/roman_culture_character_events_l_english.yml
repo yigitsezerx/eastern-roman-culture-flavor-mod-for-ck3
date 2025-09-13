@@ -1,0 +1,10 @@
+﻿l_english:
+
+ roman_culture_character.1.t: "The Spread of Roman Culture"
+ roman_culture_character.1.desc: "It is undeniable now, with the official restoraton of the Diocese, Roman culture has truly returned to the region. While many of the locals still speak their old language, Latin has started to take root alongside the celebration of Roman festivities and Roman customs. The quesiton is, should I join this trend, or reject this blatant cultural conquest?"
+ roman_culture_character.1.a: "I am [ROOT.Char.GetCulture.GetNameNoTooltip], not a Roman!"
+ roman_culture_character.1.b: "When in Rome..."
+ roman_culture_character.2.t: "The Spread of Roman Culture"
+ roman_culture_character.2.desc: "It is undeniable now, with the official restoraton of the Diocese, Roman culture has truly returned to the region. While many of the locals still speak their old language, Latin has started to take root alongside the celebration of Roman festivities and Roman customs. The quesiton is, should I join this trend, or reject this blatant cultural conquest?"
+ roman_culture_character.2.a: "I am [ROOT.Char.GetCulture.GetNameNoTooltip], not a Roman!"
+ roman_culture_character.2.b: "When in Rome..."
